@@ -1,4 +1,4 @@
-let ApprovalContract = artifacts.require("ApprovalContact");
+let ApprovalContract = artifacts.require("ApprovalContract");
 
 module.exports = function(deployer){
     deployer.deploy(ApprovalContract);
